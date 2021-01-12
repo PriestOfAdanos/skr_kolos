@@ -8,6 +8,7 @@ def my_split(st):
             word = ""
             continue
         word+=ch
+    yield word
     
 
 def word_count(arr):
