@@ -29,33 +29,26 @@ Zwraca słownik gdzie kluczami są elemnty wprowadzonej listy a wartościami jes
 
 
 ```
-SET st TO "ala ma kota ala ala ala"
-
-
-
 DEFINE FUNCTION my_split(st):
-    SET yld TO []
+    SET yld TO EMPTY LIST
     SET word TO ""
     FOR ch IN st:
         IF ch==" ":
-            yld.append(word)
+            APPEND word TO yld
             SET word TO ""
-            continue
-        word+=ch
-    yld.append(word)
+            SKIP TO NEXT ITERATION
+        CONCATENATE ch TO word
+    APPEND word TO yld
     RETURN yld
 
-
 DEFINE FUNCTION word_count(arr):
-    SET dct TO dict()
+    SET dct AS EMPTY DICTIONARY
     FOR word IN arr:
-        OUTPUT(word)
-        IF word IN dct.keys():
-            dct[word]+=1
+        IF word IN KEYS OF dct:
+            ADD 1 TO VALUE OF KEY word IN dct
         ELSE:
-            dct[word]=1
+            CREATE KEY IN dct WITH VALUE OF 1
     RETURN dct
-OUTPUT(word_count(my_split(st)))
 
 ```
 
