@@ -23,5 +23,5 @@ Zwraca słownik gdzie kluczami są elemnty wprowadzonej listy a wartościami jes
 ```python
 >> st = "ala ma kota ala ala ala"
 >> print(word_count(my_split(st)))
->> {'ala': 3, 'ma': 1, 'kota': 1}
+>> {'ala': 4, 'ma': 1, 'kota': 1}
 ```
