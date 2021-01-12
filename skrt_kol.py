@@ -1,14 +1,16 @@
 st = "ala ma kota ala ala ala"
 
 def my_split(st):
+    yld = []
     word=""
     for ch in st:
         if ch==" ":
-            yield word
+            yld.append(word)
             word = ""
             continue
         word+=ch
-    yield word
+    yld.append(word)
+    return yld
     
 
 def word_count(arr):
