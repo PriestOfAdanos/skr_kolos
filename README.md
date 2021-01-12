@@ -35,7 +35,7 @@ SET st TO "ala ma kota ala ala ala"
 
 DEFINE FUNCTION my_split(st):
     SET yld TO []
-    word=""
+    SET word TO ""
     FOR ch IN st:
         IF ch==" ":
             yld.append(word)
