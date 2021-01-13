@@ -2,7 +2,7 @@
 ## Problem:
 Należy zliczyć częstość występowania wyrazów w tekście.
 
-## Zaoimplementowane funkcje:
+## Zaimplementowane funkcje:
 
 ```python
 my_split(<string>)-> <arr>
