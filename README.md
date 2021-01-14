@@ -1,4 +1,4 @@
-# Projekt na kolokwium z języków skryptowych 
+# Projekt na kolokwium z Algorytmów i struktór danych
 ## Problem:
 Należy zliczyć częstość występowania wyrazów w tekście.
 
