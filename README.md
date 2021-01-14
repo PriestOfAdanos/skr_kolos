@@ -40,11 +40,12 @@ l1 = "qwe rty ui"
 l2 = "qwer tyuio"
 ```
 
-Zarówno dla l1 i l2 warunek zostanie sprawdzony dla każdego znaku.Jednak w przupdaku l2 mniej razy zostanie ten warunek spełniony, co oznacza, że zostanie wykonane mniej operacji.
+Zarówno dla l1 i l2 warunek zostanie sprawdzony dla każdego znaku.Jednak w przupdaku l2 mniej razy zostanie ten warunek 
+spełniony, co oznacza, że zostanie wykonane mniej operacji.
 
 
-Zgodnie z zasadą działania algorytmu, dla każdego elementu wykonywana jest operacja, a za każdym razem gdy spełniony jest warunek (ch==" ") wykonywane są dodatkowe 2 operacje
-(łącznie 3)
+Zgodnie z zasadą działania algorytmu, dla każdego elementu wykonywana jest operacja, a za każdym razem gdy spełniony 
+jest warunek (ch==" ") wykonywane są dodatkowe 2 operacje (łącznie 3)
 
 
 Z tego wynika wzór złożoności czasowej:
