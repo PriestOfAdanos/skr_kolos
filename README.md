@@ -44,13 +44,23 @@ Zarówno dla l1 i l2 warunek zostanie sprawdzony dla każdego znaku.Jednak w prz
 Zgodnie z zasadą działania algorytmu, dla każdego elementu wykonywana jest operacja, a za każdym razem gdy spełniony jest warunek (ch==" ") wykonywane są dodatkowe 2 operacje
 (łącznie 3)
 
+
 Z tego wynika wzór złożoności czasowej:
 
+```
 O(n+(m+1)*2)
+```
+
+Dla przykładu l1 ilość operacji to: 10+3*2 #10 char i 2 spacje
+Dla przykładu l2 ilość operacji to: 10+2*2 #10 char i 1 spacja
 
 ### word_count
 ilosć słów -> n
 
+Tutaj sytuacja jest bardzo prosta, dokładnie tyle ile elemntów ma lista, dokładnie tyle wykona się operacji, zwiększenie ilości elelmentów o 1 doda liniowo jedną operacje:
+```
+O(n)
+```
 
 
 ## Pseudokod
