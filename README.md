@@ -25,6 +25,34 @@ Zwraca słownik gdzie kluczami są elemnty wprowadzonej listy a wartościami jes
 >> print(word_count(my_split(st)))
 >> {'ala': 4, 'ma': 1, 'kota': 1}
 ```
+
+## Złożoność czasowa
+### my_split
+długość tekstu -> n
+ilość spacji -> m (m+1 -> il.słów)
+
+Rozważmy 2 sytuacje, gdzie długość łańcucha  wejścia będzie wynosiła 10:
+
+```
+l1 = "qwe rty ui"
+l2 = "qwer tyuio"
+```
+
+Zarówno dla l1 i l2 warunek zostanie sprawdzony dla każdego znaku.Jednak w przupdaku l2 mniej razy zostanie ten warunek sprawdzony, co oznacza że zostanie wykonane mniej operacji.
+
+
+Zgodnie z zasadą działania algorytmu, dla każdego elementu wykonywana jest operacja, a za każdym razem gdy spełniony jest warunek (ch==" ") wykonywane są dodatkowe 2 operacje
+(łącznie 3)
+
+Z tego wynika wzór złożoności czasowej:
+
+O(n+(m+1)*2)
+
+### word_count
+ilosć słów -> n
+
+
+
 ## Pseudokod
 
 
