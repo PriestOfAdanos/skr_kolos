@@ -54,9 +54,14 @@ Z tego wynika wzór złożoności czasowej:
 O(n+(m+1)*2)
 ```
 
-Dla przykładu l1 ilość operacji to: 10+3*2 #10 char i 2 spacje
-Dla przykładu l2 ilość operacji to: 10+2*2 #10 char i 1 spacja
-
+Dla przykładu l1 ilość operacji to: 
+```
+10+3*2
+```
+Dla przykładu l2 ilość operacji to: 
+```
+10+2*2
+```
 ### word_count
 ilosć słów -> n
 
