@@ -45,7 +45,7 @@ spełniony, co oznacza, że zostanie wykonane mniej operacji.
 
 
 Zgodnie z zasadą działania algorytmu, dla każdego elementu wykonywana jest operacja, a za każdym razem gdy spełniony 
-jest warunek (ch==" ") wykonywane są dodatkowe 2 operacje (łącznie 3)
+jest warunek wykonywane są dodatkowe 2 operacje.
 
 
 Z tego wynika wzór złożoności czasowej:
